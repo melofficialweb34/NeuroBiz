@@ -1,0 +1,206 @@
+{
+  "section_title": "Business Profile",
+  "questions": [
+    {
+      "id": "Q0.1",
+      "text": "What is your business name?",
+      "input_type": "short text",
+      "options": null,
+      "score": null,
+      "branching_logic": null
+    },
+    {
+      "id": "Q0.2",
+      "text": "What industry best describes your business?",
+      "input_type": "single choice",
+      "options": [
+        {
+          "text": "Manufacturing",
+          "score": null
+        },
+        {
+          "text": "Trading & Distribution",
+          "score": null
+        },
+        {
+          "text": "Services & Agencies",
+          "score": null
+        },
+        {
+          "text": "Retail & E-commerce",
+          "score": null
+        },
+        {
+          "text": "Education",
+          "score": null
+        },
+        {
+          "text": "Hospitality",
+          "score": null
+        },
+        {
+          "text": "Other (please specify)",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": {
+        "Manufacturing": "Go to Manufacturing section",
+        "Retail & E-commerce": "Go to Retail section"
+      }
+    },
+    {
+      "id": "Q0.3",
+      "text": "How many employees work in your company (including full-time & part-time)?",
+      "input_type": "single choice",
+      "options": [
+        {
+          "text": "Less than 10",
+          "score": null
+        },
+        {
+          "text": "10\u201350",
+          "score": null
+        },
+        {
+          "text": "51\u2013200",
+          "score": null
+        },
+        {
+          "text": "More than 200",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": "Used to show/hide relevant HR/Finance questions and tag business size"
+    },
+    {
+      "id": "Q0.4",
+      "text": "How many business locations/outlets do you operate?",
+      "input_type": "single choice",
+      "options": [
+        {
+          "text": "Single location",
+          "score": null
+        },
+        {
+          "text": "2\u20134 locations",
+          "score": null
+        },
+        {
+          "text": "5\u201310 locations",
+          "score": null
+        },
+        {
+          "text": "More than 10 locations",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": null
+    },
+    {
+      "id": "Q0.5",
+      "text": "Do you sell:",
+      "input_type": "multi-select",
+      "options": [
+        {
+          "text": "Physical goods",
+          "score": null
+        },
+        {
+          "text": "Services",
+          "score": null
+        },
+        {
+          "text": "Digital products",
+          "score": null
+        },
+        {
+          "text": "Subscriptions or retainers",
+          "score": null
+        },
+        {
+          "text": "Not selling yet (early-stage)",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": "Triggers logic in Sales & Inventory sections"
+    },
+    {
+      "id": "Q0.6",
+      "text": "What systems or software do you currently use?",
+      "input_type": "multi-select",
+      "options": [
+        {
+          "text": "Tally",
+          "score": null
+        },
+        {
+          "text": "Zoho Books",
+          "score": null
+        },
+        {
+          "text": "SAP",
+          "score": null
+        },
+        {
+          "text": "Excel/Manual",
+          "score": null
+        },
+        {
+          "text": "POS (Retail, Hospitality)",
+          "score": null
+        },
+        {
+          "text": "Custom software",
+          "score": null
+        },
+        {
+          "text": "None",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": null
+    },
+    {
+      "id": "Q0.7",
+      "text": "What is your role in the organization?",
+      "input_type": "single choice",
+      "options": [
+        {
+          "text": "Owner / Founder",
+          "score": null
+        },
+        {
+          "text": "CEO / CXO",
+          "score": null
+        },
+        {
+          "text": "Operations Head",
+          "score": null
+        },
+        {
+          "text": "Finance Head",
+          "score": null
+        },
+        {
+          "text": "IT Head",
+          "score": null
+        },
+        {
+          "text": "Consultant",
+          "score": null
+        },
+        {
+          "text": "Other",
+          "score": null
+        }
+      ],
+      "score": null,
+      "branching_logic": null
+    }
+  ]
+}

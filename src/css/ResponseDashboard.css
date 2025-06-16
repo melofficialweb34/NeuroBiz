@@ -1,0 +1,40 @@
+.response-dashboard {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+}
+
+.response-dashboard h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.responses-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.response-card {
+  background-color: #f1f3f4;
+  border-radius: 6px;
+  padding: 15px;
+  border-left: 4px solid #4285f4;
+}
+
+.response-card h4 {
+  margin-top: 0;
+}
+
+.response-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.response-card li {
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
