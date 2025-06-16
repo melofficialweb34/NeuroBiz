@@ -1,6 +1,7 @@
 import { onAuthStateChanged } from 'firebase/auth'
 import React, { useEffect, useState } from 'react'
 import { auth } from '../services/firebase'
+import { Navigate } from 'react-router-dom'
 
 const PrivateRoute = ({ children }) => {
     const [loading, setLoading] = useState(true)
